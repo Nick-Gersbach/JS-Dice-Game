@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.dice {
+  color: white;
+  background: red;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.scores {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.player-one-roll-number {
+  font-size: 60px;
+}
+
+.player-two-roll-number {
+  font-size: 60px;
+}
+
+.dice-shadow {
+  -webkit-box-shadow: 0px 0px 15px -1px #333333;
+  box-shadow: 0px 0px 15px -1px #333333;
+}
+
+button {
+  background: skyblue;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3rem;
+}
+
+.reset-btn {
+  display: none;
+}

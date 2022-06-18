@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/293abf4b96.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Dice Game</title>
+  </head>
+  <body>
+    <h1 class="player-turn-title">Player 1 Turn</h1>
+    <div class="scores">
+      <h2>Score: <span class="player-one-scoreboard">0</span></h2>
+      <h2>Score: <span class="player-two-scoreboard">0</span></h2>
+    </div>
+    <div class="game-container">
+      <div class="player-one-container">
+        <div class="dice">
+          <h3 class="player-one-roll-number">-</h3>
+        </div>
+      </div>
+      <div class="player-two-container">
+        <div class="dice">
+          <h3 class="player-two-roll-number">-</h3>
+        </div>
+      </div>
+    </div>
+    <button class="roll-btn">
+      Roll Dice <span><i class="fa-solid fa-dice"></i></span>
+    </button>
+    <button class="reset-btn">
+      Reset Game <span><i class="fa-solid fa-rotate-right"></i></span>
+    </button>
+    <script src="app.js"></script>
+  </body>
+</html>
